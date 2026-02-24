@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca PsiOz 3º semestre</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-color: #1e293b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .book-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+
+        .book-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .chapter-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .chapter-item {
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .chapter-item:last-child {
+            border-bottom: none;
+        }
+
+        .chapter-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: background 0.2s;
+        }
+
+        .chapter-link:active {
+            background-color: #eff6ff;
+        }
+
+        .download-icon {
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        @media (min-width: 768px) {
+            .chapter-link:hover {
+                background-color: #f1f5f9;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📚 Biblioteca PsiOz - Análise Comportamental</h1>
+</header>
+
+<div class="container">
+
+    <div class="book-card">
+        <div class="book-header">Metodologia da Ciência: Filososfia e Prática da Pesquisa | Fabio Appolinário</div>
+        <ul class="chapter-list">
+	   <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1YoeO7Eo9oJNjfGnGL685buhZL9Xcypl-/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>	
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1_BEl0N6_vXMR3NfgwQQScTLwjMUxo9W1/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Capítulo 1: Ciência-Uma Visão Geral</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="book-card">
+        <div class="book-header">Skinner vai ao Cinema | Ana Karina & Michela Rodrigues</div>
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1WGt_KQ52O7G5jFtXj5kqO3RTIgbvgEqB/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro Completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="book-card">
+        <div class="book-header">Princípios Básicos de Análise do Comportamento | Moreira & Medeiros</div>
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1DIyUUzv5wkGs5vAPTNUqa8ob_T8DfBgI/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro Completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="book-card">
+        <div class="book-header">Ciência e Comportamento | B.F. Skinner</div>
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/11JV60wY1jV0N0ksk70rnyG71GbjDCG8a/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro Completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="book-card">
+        <div class="book-header">Aprendendo a Observar - Dama & Matos</div>
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1QEyAh4Yv6LGfnYUPQBSKy7QidJhe7Mz7/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro Completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="book-card">
+        <div class="book-header">Descrição, Definição e Registro de Comportamento | Antônio Jayro Fagundes</div>
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <a href="https://drive.google.com/file/d/1KvLpBPbpsGnInI1sLclKHhU5ABzoaG2e/view?usp=drive_link" class="chapter-link" target="_blank">
+                    <span>Livro Completo</span>
+                    <span class="download-icon">Baixar ↓</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
